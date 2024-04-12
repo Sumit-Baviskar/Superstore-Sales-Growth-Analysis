@@ -41,7 +41,7 @@ SELECT ship_mode, AVG(DATEDIFF(DAY, CAST(order_date AS DATE),CAST(ship_date AS D
 FROM store
 GROUP BY ship_mode;
 
--- profibility and cost analysis --
+-- profitability and cost analysis --
 SELECT product_name,category,sub_category,AVG(profit) AS Avg_profit,AVG(discount) AS Avg_dicount
 FROM store
 GROUP BY product_name,category,sub_category
