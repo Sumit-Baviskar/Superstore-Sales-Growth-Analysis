@@ -1,3 +1,6 @@
+-- Details of table --
+DESCRIBE store;
+
 -- Overall view of superstore sales dataset --
 SELECT
 COUNT(order_id) AS Total_oreders,
@@ -13,11 +16,10 @@ AVG(discount) AS Total_discount
 FROM store;
 
 -- sales performance analysis --
-SELECT product_name,SUM(sales) AS Toatl_sales,SUM(quantity) AS Total_quantity_sold ,COUNT(DISTINCT ) AS Total_subcategories
+SELECT product_name,SUM(sales) AS Total_sales, SUM(quantity) AS Total_quantity_sold , COUNT(DISTINCT Order ID) AS Total_Orders
 FROM store
 GROUP BY product_name,category
-ORDER BY SUM(sales) DESC
-LIMIT 10;
+ORDER BY SUM(sales) DESC;
 
 -- total sales per year  --
 SELECT  year, SUM(sales) AS Total_sales FROM Store
@@ -25,7 +27,7 @@ GROUP BY year
 ORDER BY SUM(sales) DESC;
 
 -- customer segmentation --
-SELECT segment, COUNT(DISTINCT customer_name) AS Toatl_customers,SUM(sales) AS Total_sales
+SELECT segment, COUNT(DISTINCT customer_name) AS Total_customers,SUM(sales) AS Total_sales
 FROM store
 GROUP BY segment
 ORDER BY SUM(sales) DESC;
@@ -37,7 +39,7 @@ GROUP BY ship_mode
 ORDER BY AVG(profit) DESC;
 
 -- time analysis for order orderes and order received --
-SELECT ship_mode, AVG(DATEDIFF(DAY, CAST(order_date AS DATE),CAST(ship_date AS DATE))) AS Avg_time_gape
+SELECT ship_mode, AVG(DATEDIFF(DAY, CAST(order_date AS DATE),CAST(ship_date AS DATE))) AS Avg_time_gap
 FROM store
 GROUP BY ship_mode;
 
@@ -57,7 +59,7 @@ ORDER BY SUM(sales) DESC;
 -- state level category exploration --
 SELECT  product_name,category,SUM(quantity) AS Total_quantity_sold
 FROM store
-GROUP BY product_name,category
+GROUP BY state,category
 ORDER BY SUM(quantity) DESC;
 
 -- Regional subcategory analysis --
@@ -66,3 +68,5 @@ FROM store
 GROUP BY region,sub_category
 ORDER BY SUM(quantity) DESC
 
+
+--Prediction of sales and profit for next one month--
