@@ -1,18 +1,19 @@
-# Superstore-Sales-Dataset (SQL+Power BI)
+# :chart_with_upwards_trend:# Superstore-Sales-Dataset (SQL+Power BI) :chart_with_upwards_trend:
 
 
-# Dataset Overview
+# :chart_with_upwards_trend:# Dataset Overview:chart_with_upwards_trend:
 
 The dataset provided originates from a survey conducted in 2014 within the technology sector, aiming to assess attitudes towards mental health and the prevalence of mental health disorders in the workplace. It offers a valuable insight into the mental health landscape within the tech industry, shedding light on perceptions, experiences, and responses related to mental well-being among employees
 
 
 
-# Tools Used
+# :green_book:  Tools Used :green_book:
 
 SQL (Data expolration and manipulation)
 Power BI (Data visualization)
 
-# Business Problem Statement:
+
+# :green_book:  Business Problem Statement:  :green_book:
 
 **1.Overview of Superstore Sales Dataset:**
 
