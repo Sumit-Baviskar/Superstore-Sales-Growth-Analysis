@@ -13,7 +13,7 @@ AVG(discount) AS Total_discount
 FROM store;
 
 -- sales performance analysis --
-SELECT product_name,SUM(sales) AS Toatl_sales,SUM(quantity) AS Total_quantity_sold 
+SELECT product_name,SUM(sales) AS Toatl_sales,SUM(quantity) AS Total_quantity_sold ,COUNT(DISTINCT ) AS Total_subcategories
 FROM store
 GROUP BY product_name,category
 ORDER BY SUM(sales) DESC
