@@ -1,7 +1,7 @@
-# :chart_with_upwards_trend:# Superstore-Sales-Dataset (SQL+Power BI) :chart_with_upwards_trend:
+# :chart_with_upwards_trend: Superstore-Sales-Dataset (SQL+Power BI) :chart_with_upwards_trend:
 
 
-# :chart_with_upwards_trend:# Dataset Overview:chart_with_upwards_trend:
+# :green_book: Dataset Overview :green_book:
 
 The dataset provided originates from a survey conducted in 2014 within the technology sector, aiming to assess attitudes towards mental health and the prevalence of mental health disorders in the workplace. It offers a valuable insight into the mental health landscape within the tech industry, shedding light on perceptions, experiences, and responses related to mental well-being among employees
 
@@ -84,7 +84,14 @@ Analyze popularity of sub-categories in different regions.
 
 
 
-# Dataset Columns:
+
+**9. One Month Prediction of Sales and Profit:** (Only in Power BI)
+
+
+Segment customers based on purchasing behavior.
+
+
+# :green_book: Dataset Columns: :green_book:
 
 **order_id:** IDs of all orders
 
@@ -150,7 +157,10 @@ Analyze popularity of sub-categories in different regions.
 
 
 
-# Dashboard
+# :key: Dashboard 
 
-![Super_store](https://github.com/Sumit-Baviskar/Mental-Health-Power-BI-/assets/153518735/95dadd55-7962-42a7-88e7-afb86e52abea)
+![dashboard 1](https://github.com/Sumit-Baviskar/Superstore-Sales/assets/153518735/25f1dded-9208-4ecb-93e2-260fbcef0d54)
+
+
+![dashboard 2](https://github.com/Sumit-Baviskar/Superstore-Sales/assets/153518735/b5fbfebc-e75e-41d6-b057-f7cd0557de9c)
 
