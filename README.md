@@ -159,8 +159,7 @@ Segment customers based on purchasing behavior.
 
 # :key: Dashboard 
 
-![dashboard 1](https://github.com/Sumit-Baviskar/Superstore-Sales/assets/153518735/25f1dded-9208-4ecb-93e2-260fbcef0d54)
 
 
-![dashboard 2](https://github.com/Sumit-Baviskar/Superstore-Sales/assets/153518735/b5fbfebc-e75e-41d6-b057-f7cd0557de9c)
+
 
