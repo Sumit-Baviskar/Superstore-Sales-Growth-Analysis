@@ -16,7 +16,7 @@ AVG(discount) AS Total_discount
 FROM store;
 
 -- sales performance analysis --
-SELECT product_name,SUM(sales) AS Total_sales, SUM(quantity) AS Total_quantity_sold , COUNT(DISTINCT Order ID) AS Total_Orders
+SELECT product_name,SUM(sales) AS Total_sales, AVERAGE(profit) AS Average_profit , COUNT(DISTINCT Order ID) AS Total_Orders
 FROM store
 GROUP BY product_name,category
 ORDER BY SUM(sales) DESC;
