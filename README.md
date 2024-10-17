@@ -506,9 +506,6 @@ The dataset provided originates from a survey conducted in 2014 within the techn
 
 # :key: **Dashboard :**
 
-![superstore ](https://github.com/Sumit-Baviskar/SQl-Amazon-sales/assets/153518735/f560e20d-659f-435f-ae0d-c098e7dc84eb)
-
-
 
 ![Superafter](https://github.com/user-attachments/assets/8c027d1e-5b89-47f0-bdb4-d1f2fe490ffd)
 
