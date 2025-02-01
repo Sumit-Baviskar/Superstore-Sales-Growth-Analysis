@@ -1,4 +1,4 @@
-# :chart_with_upwards_trend: **Superstore-Sales-Dataset (SQL + Power BI)** :chart_with_upwards_trend:
+# :chart_with_upwards_trend: **Superstore Sales Growth Analysis** :chart_with_upwards_trend:
 
 
 # :green_book: **Dataset Overview :** :green_book:
