@@ -7,7 +7,7 @@ In today’s dynamic retail landscape, data-driven decision-making is essential 
 This project aims to explore and interpret key sales and operational trends within the dataset. By leveraging data analytics techniques, we can gain a deeper understanding of the factors influencing sales growth, customer segmentation, shipping logistics, and cost management. This analysis will help uncover opportunities to improve revenue, reduce costs, and maximize profitability.
 
 # 🚛 **Objective:**
-The goal of this analysis is to identify trends, optimize sales strategies, and enhance profitability by evaluating various factors such as customer segmentation, shipping efficiency, product performance, and regional sales distributionThe objective of this analysis is to derive meaningful insights from the Superstore Sales dataset to support data-driven decision-making. By examining key business aspects such as sales performance, customer behavior, shipping efficiency, and profitability, this study aims to provide actionable recommendations for business growth and operational optimization.  
+The goal of this analysis is to identify trends, optimize sales strategies, and enhance profitability by evaluating various factors such as customer segmentation, shipping efficiency, product performance, and regional sales distribution. This analysis is to derive meaningful insights from the Superstore Sales dataset to support data-driven decision-making. By examining key business aspects such as sales performance, customer behavior, shipping efficiency, and profitability, this study aims to provide actionable recommendations for business growth and operational optimization.  
 
 
 # 🔑 **Key Areas of Focus:**
