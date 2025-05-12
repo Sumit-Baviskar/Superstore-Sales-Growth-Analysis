@@ -530,6 +530,11 @@ The dataset provided originates from a survey conducted in 2014 within the techn
 ![Superafter](https://github.com/user-attachments/assets/8c027d1e-5b89-47f0-bdb4-d1f2fe490ffd)
 
 
+
+# :key: **Presentation link :**
+
+https://gamma.app/docs/Superstore-Sales-Growth-Analysis-wo8vio7w571vj92
+
 # :key: **Recommendation :**
 
 **1. Optimize Shipping and Order Processing :**
